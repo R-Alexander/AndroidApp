@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         container.addView(v);
         RelativeLayout.LayoutParams p1 = new RelativeLayout.LayoutParams(100,100);
         v.setLayoutParams(p1);
-        v.setX(100);
         v.setY(100);
+        v.setX(500);
     }
 }
