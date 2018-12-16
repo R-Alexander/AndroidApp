@@ -27,12 +27,7 @@ public class MainActivity extends Activity {
         v.setText("Seeing a change on github");
         v.setText("Hi");
         v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
-        v.setText("Testing");
+        v.setText("Fixed");
+        v.setText("Make sure I know how this works");
     }
 }
