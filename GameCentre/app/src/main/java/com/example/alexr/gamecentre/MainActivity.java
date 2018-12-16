@@ -24,6 +24,6 @@ public class MainActivity extends Activity {
         v.setLayoutParams(p1);
         v.setY(100);
         v.setX(200);
-        v.setText("Seeing a change on github");
+        v.setText("Testing");
     }
 }
