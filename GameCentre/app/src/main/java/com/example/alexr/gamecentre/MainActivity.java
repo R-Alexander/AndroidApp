@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         TextView v = new TextView(this);
         v.setBackgroundColor(Color.WHITE);
         container.addView(v);
-        RelativeLayout.LayoutParams p1 = new RelativeLayout.LayoutParams(100,100);
+        RelativeLayout.LayoutParams p1 = new RelativeLayout.LayoutParams(200,200);
         v.setLayoutParams(p1);
         v.setY(100);
         v.setX(200);
@@ -29,5 +29,6 @@ public class MainActivity extends Activity {
         v.setText("Testing");
         v.setText("Fixed");
         v.setText("Make sure I know how this works");
+        v.setText("THIS WORKS");
     }
 }
