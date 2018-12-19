@@ -1,20 +1,17 @@
 package com.example.alexr.gamecentre.BreakoutObjects;
 
-import android.view.View;
+import android.widget.ImageView;
 
 public class BlockView extends Block {
-    private View v;
+    private ImageView v;
 
-    public BlockView(int x, int y, int width, int height, View v) {
+    public BlockView(int x, int y, int width, int height, ImageView v) {
         super(v.getId(), x, y, width, height);
         this.v = v;
     }
 
-    public View getV() {
+    public ImageView getImageView() {
         return v;
     }
 
-    public void setV(View v) {
-        this.v = v;
-    }
 }

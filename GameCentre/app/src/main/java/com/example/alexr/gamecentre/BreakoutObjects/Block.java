@@ -1,8 +1,6 @@
 package com.example.alexr.gamecentre.BreakoutObjects;
 
 
-import java.util.Objects;
-
 public class Block {
     private int x;
     private int y;
@@ -51,21 +49,4 @@ public class Block {
     }
 
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Block block = (Block) o;
-        return x == block.x &&
-                y == block.y &&
-                width == block.width &&
-                height == block.height &&
-                id == block.id;
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(x, y, width, height, id);
-    }
 }
