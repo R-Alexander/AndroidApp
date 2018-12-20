@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.example.alexr.gamecentre.BreakoutGame.BreakoutManager;
+import com.example.alexr.gamecentre.BreakoutGame.SliderMovement;
 import com.example.alexr.gamecentre.BreakoutObjects.Block;
 import com.example.alexr.gamecentre.BreakoutObjects.BlockView;
 
@@ -35,7 +36,7 @@ public class MainActivity extends Activity{
 
 
         ImageView slider = new ImageView(this);
-        Block sliderBlock = new BlockView(100, 100, 100, 200, slider);
+        Block sliderBlock = new BlockView(100, 1600, 300, 100, slider);
         container.addView(slider);
         slider.setBackgroundColor(Color.rgb(255, 0, 0));
         RelativeLayout.LayoutParams yuh = new RelativeLayout.LayoutParams(sliderBlock.getWidth(), sliderBlock.getHeight());

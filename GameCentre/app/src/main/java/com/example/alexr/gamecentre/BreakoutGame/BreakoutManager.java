@@ -5,6 +5,7 @@ import com.example.alexr.gamecentre.BreakoutObjects.BlockView;
 
 public class BreakoutManager {
     private Block slider;
+    private SliderMovement mover = new SliderMovement();
     public Block getSlider(){
         return  slider;
     }
@@ -12,4 +13,5 @@ public class BreakoutManager {
     public void setSlider(Block slider){
         this.slider = slider;
     }
+
 }
